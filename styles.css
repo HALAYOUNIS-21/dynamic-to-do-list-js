@@ -7,6 +7,9 @@ body {
     height: 100vh;
     margin: 0;
 }
+input {
+    margin-right: 10px;
+}
 
 #todo-app {
     width: 100%;
@@ -45,13 +48,10 @@ ul {
 }
 
 li {
-    background-color: #eeeeee;
-    margin-top: 8px;
-    padding: 10px;
-    border-radius: 4px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 5px 0;
 }
 
 .task-item {
@@ -63,11 +63,11 @@ li {
 }
 
 .remove-btn {
-    background-color: red; /* Red background for the remove button */
-    color: white; /* White text */
-    border: none; /* Remove default border */
-    padding: 5px 10px; /* Padding around button text */
-    cursor: pointer; /* Pointer cursor on hover */
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
 }
 
 .remove-btn:hover {
